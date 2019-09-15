@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteSundayLearingclass]">
+  <test thread-count="5" name="Testmethodbmam(failed)">
+    <classes>
+      <class name="leaf.Lead.EditLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="login"/>
+          <include name="editLead"/>
+        </methods>
+      </class> <!-- leaf.Lead.EditLead -->
+      <class name="leaf.Lead.DeleteLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="login"/>
+          <include name="deleteLead"/>
+        </methods>
+      </class> <!-- leaf.Lead.DeleteLead -->
+      <class name="leaf.Lead.MergeLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="mergeLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- leaf.Lead.MergeLead -->
+      <class name="leaf.Lead.CreateLead">
+        <methods>
+          <include name="closeApp"/>
+          <include name="createLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- leaf.Lead.CreateLead -->
+    </classes>
+  </test> <!-- Testmethodbmam(failed) -->
+</suite> <!-- Failed suite [SuiteSundayLearingclass] -->
